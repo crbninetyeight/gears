@@ -87,7 +87,7 @@ class Object {
         double yOrientation() { return rotate.y; }
         double zOrientation() { return rotate.z; }
 
-        update( Nanoseconds time )
+        void update( Nanoseconds time )
         {
             float dt =
                 boost::chrono::duration_cast<Seconds>
